@@ -64,7 +64,7 @@
 <script>
 import axios from "axios";
 import https from "https";
-import proxy from "../proxy";
+
 // import httpsAgent from 'https'
 let config = {
   headers: {
