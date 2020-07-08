@@ -15,8 +15,9 @@
             >
               <b-card-text>{{ `${data.strCategoryDescription.slice(0,100)}...` }}</b-card-text>
               <span>
-                <strong>Price: NGN500</strong>
+                <strong>Price: NGN2000</strong>
               </span>
+              <br />
               <br />
               <b-button @click="pay" variant="primary">Order Food</b-button>
             </b-card>
